@@ -97,7 +97,7 @@ section{
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  min-width: 300px;
+  min-width: 270px;
 }
 
 .primeira-sessao p {
@@ -205,6 +205,7 @@ strong{
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
 
 .card-projetos {
@@ -293,6 +294,11 @@ footer p {
 /* Responsividade */
 
 @media (max-width: 717px){
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   header {
     display: flex;
     justify-content: space-evenly;
